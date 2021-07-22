@@ -19,9 +19,3 @@ describe('century find test', () => {
     }).toThrow()
   })
 })
-
-// test('throws on octopus', () => {
-//   expect(() => {
-//     drinkFlavor('octopus')
-//   }).toThrow()
-// })
