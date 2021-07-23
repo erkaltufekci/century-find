@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "lint-staged",
+    "lint": "eslint .",
     "start": "node index.js",
     "test:coveralls": "jest --coverage && coveralls < coverage/lcov.info"
   },
